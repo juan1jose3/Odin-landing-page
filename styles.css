@@ -159,7 +159,70 @@ a{
 
 .from{
     color: #2B3542;
-    font-size: 20px;
+    font-size: 23px;
     font-weight: 900;
     padding-left: 600px;
+
+}
+
+.sectionD{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 80px;
+}
+
+.blueBox{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #3882F6;
+    width: 1000px;
+    height: 150px;
+    border-radius: 15px;
+}
+
+.boxText{
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+    color: #FFFFFF;
+    font-size: 16px;
+
+}
+
+.boxText .mainText{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.blueBox .boxButton{
+    background-color:#3882F6;
+    border: 2px solid #FFFFFF;
+    text-align: center;
+    color: white;
+    cursor: pointer;
+    width: 130px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.footer{
+    background-color: #1F2937;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footerMessage{
+    color: white;
+    font-size: 18px;
+
 }
